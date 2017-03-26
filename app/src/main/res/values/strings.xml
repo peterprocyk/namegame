@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Name Game</string>
+    <string name="menu_name">Name Game</string>
+    <string name="question">Who is %s?</string>
+    <string name="cdFace">A face</string>
+    <string name="start">Start Name Game</string>
+    <string name="normal_mode">Normal Mode</string>
+    <string name="hint_mode">Hint Mode</string>
+    <string name="reverse_mode">Reverse Mode</string>
+    <string name="FirstNameMode">Starts with __blank__ as First Name</string>
+    <string name="time">Total Time: </string>
+    <string name="longesttime">Longest Round: "</string>
+    <string name="tries">Incorrect Attempts: </string>
+    <string name="mode">Game Mode: </string>
+    <string name="score">Score: </string>
+    <string name="btncontinue">Click Anywhere to Continue</string>
+    <string name='avgtime'>Average(Attempt) Time: </string>
+</resources>

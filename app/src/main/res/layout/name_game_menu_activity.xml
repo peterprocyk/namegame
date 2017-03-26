@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/blue_sky"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/menu_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/name_game_title_text_margin"
+        android:gravity="center_horizontal"
+        android:textColor="@color/darkGray"
+        android:textSize="22sp"
+        android:visibility="visible"
+        android:text="@string/menu_name" />
+
+    <RadioGroup
+        android:id="@+id/rdogrpMode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/rdoNormalMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/normal_mode"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            app:buttonTint="@color/alphaRed" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/rdoHintMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_mode"
+            app:buttonTint="@color/alphaGreen" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blue_start"
+            android:textSize="44dp" />
+
+    </RadioGroup>
+
+</LinearLayout>
