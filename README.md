@@ -8,7 +8,7 @@ There exists two new activities, NameGameMenuActivity and NameGameResultsActivit
 
 # Deploying #
 There are a few ways to run this application:
-1. Download the APK file to your phone, install the APK file. You may need to enable application sideloading in settings or check "Allow installation of apps from unknown sources" under application or security.
+1. Download the APK file to your phone from the root project directory, install the APK file. You may need to enable application sideloading in settings or check "Allow installation of apps from unknown sources" under application or security.
 2. Build the project using gradle or gradlew and install the apk file to an enumalator
 3. Build the project using gradle or gradlw and generate a signed APK file using your own android keystore.
 
