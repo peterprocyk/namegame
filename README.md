@@ -1,4 +1,4 @@
-# Name Game (Android)#
+# Name Game (Android) #
 Name Game is a project to learn the names of people using headshots of those people. The API for this project is located at  http://www.willowtreeapps.com/api/v1.0/profiles.
 
 # Thoughts #
@@ -7,6 +7,11 @@ This project uses the baseline project from https://github.com/willowtreeapps/na
 There exists two new activities, NameGameMenuActivity and NameGameResultsActivity, which are responsible for displaying a game menu and statistics for the NameGameActivity. These contain only an xml for portrait layout, which also works well when in landscape mode.
 
 # Deploying #
-There are two ways to run this application:
-1. Download the APK file to your phone, install the APK file.
-2. Build the project using gradle or gradlew and generate a signed APK file
+There are a few ways to run this application:
+1. Download the APK file to your phone, install the APK file. You may need to enable application sideloading in settings or check "Allow installation of apps from unknown sources" under application or security.
+2. Build the project using gradle or gradlew and install the apk file to an enumalator
+3. Build the project using gradle or gradlw and generate a signed APK file using your own android keystore.
+
+# Notes #
+If there are any questions or concerns please feel free to send an email over to procyk.walter@gmail.com
+Thanks!
